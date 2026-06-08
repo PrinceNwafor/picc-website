@@ -1,0 +1,11 @@
+_shots/
+*.ps1
+.DS_Store
+Thumbs.db
+
+# Original source media (kept locally; web-safe copies live in assets/)
+Master Template/
+Logos/
+Pastors photo/
+images/
+videos/

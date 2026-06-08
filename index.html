@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Prevailers International Christian Chapel (PICC) — a charismatic, Spirit-filled family church on Ilaje Road, Bariga, Lagos. Led by Pastor Elisha Esho. Come and prevail with us this Sunday." />
+  <meta property="og:title" content="The Prevailers International Christian Chapel (PICC)" />
+  <meta property="og:description" content="Home of Kings and Queens — a place to encounter God, grow in faith, and belong. Ilaje Road, Bariga, Lagos." />
+  <meta property="og:type" content="website" />
+  <title>The Prevailers International Christian Chapel (PICC) — Home</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/img/favicon-180.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav nav--transparent" id="main-nav" data-transparent="true">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/img/logo.jpg" alt="PICC logo" class="nav__logo-img" />
+        <div>
+          <div class="nav__logo-text">Prevailers</div>
+          <div class="nav__logo-sub">Int'l Christian Chapel</div>
+        </div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="sermons.html" class="nav__link">Sermons</a></li>
+        <li><a href="ministries.html" class="nav__link">Ministries</a></li>
+        <li><a href="events.html" class="nav__link">Events</a></li>
+        <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+        <li><a href="find-help.html" class="nav__link nav__link--find-help">Find Help</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="give.html" class="btn btn--secondary btn--sm">Give</a>
+        <a href="plan-visit.html" class="btn btn--primary btn--sm">Plan a Visit</a>
+        <button class="nav__menu-btn" id="menu-btn" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav__close" id="mobile-nav-close">✕</button>
+    <ul class="mobile-nav__links">
+      <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav__link">About</a></li>
+      <li><a href="sermons.html" class="mobile-nav__link">Sermons</a></li>
+      <li><a href="ministries.html" class="mobile-nav__link">Ministries</a></li>
+      <li><a href="events.html" class="mobile-nav__link">Events</a></li>
+      <li><a href="gallery.html" class="mobile-nav__link">Gallery</a></li>
+      <li><a href="find-help.html" class="mobile-nav__link mobile-nav__link--find-help">Find Help</a></li>
+      <li><a href="plan-visit.html" class="mobile-nav__link">Plan a Visit</a></li>
+      <li><a href="give.html" class="mobile-nav__link">Give</a></li>
+      <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- HERO — Video landing -->
+    <section class="hero">
+      <div class="hero__bg hero__bg--video">
+        <video class="hero__video" autoplay muted loop playsinline poster="assets/img/praise-1.jpg">
+          <source src="assets/video/landing.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <button class="hero__sound" id="hero-sound" aria-label="Unmute video">
+        <svg data-icon="off" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 00-2.5-4v8a4.5 4.5 0 002.5-4z" opacity=".9"/><line x1="2" y1="2" x2="22" y2="22" stroke="currentColor" stroke-width="2"/></svg>
+        <svg data-icon="on" viewBox="0 0 24 24" style="display:none"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 00-2.5-4v8a4.5 4.5 0 002.5-4zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+      </button>
+
+      <div class="hero__content">
+        <span class="hero__label animate-fade-up">Welcome to PICC · Bariga, Lagos</span>
+        <h1 class="hero__title animate-fade-up animate-fade-up--delay-1">
+          Come and
+          <span>Prevail With Us.</span>
+        </h1>
+        <p class="hero__subtitle animate-fade-up animate-fade-up--delay-2">
+          The Prevailers International Christian Chapel is a Spirit-filled family where every
+          person encounters God, grows in faith, and discovers a place to truly belong.
+          Wherever you are on the journey — there is room for you here.
+        </p>
+        <div class="hero__actions animate-fade-up animate-fade-up--delay-3">
+          <a href="plan-visit.html" class="btn btn--primary btn--lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg>
+            Plan Your Visit
+          </a>
+          <a href="sermons.html" class="btn btn--ghost btn--lg">Watch a Message</a>
+        </div>
+      </div>
+
+      <div class="service-bar" style="position: absolute; bottom:0; left:0; right:0;">
+        <div class="service-bar__inner">
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Sunday Worship:</strong> 8:00am &amp; 10:00am</span>
+          </div>
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Wednesday:</strong> Word &amp; Prayer 6:00pm</span>
+          </div>
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Ilaje Road,</strong> Bariga, Lagos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WELCOME -->
+    <section class="section section--warm">
+      <div class="container">
+        <div class="stack-mobile" style="display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;">
+          <div class="reveal">
+            <span class="section-header__label">Our Heart</span>
+            <h2 style="margin-bottom: 24px;">A Church Where<br>Prevailers Are Raised</h2>
+            <p class="text-lead" style="margin-bottom: 24px;">
+              At PICC, we believe every child of God is born to prevail — in faith, in family,
+              in purpose and in every sphere of life.
+            </p>
+            <p style="margin-bottom: 32px;">
+              From our home on Ilaje Road in Bariga, we gather week after week to worship in
+              spirit and truth, to hear God's Word boldly preached, and to carry His mercy and
+              power into Lagos and the nations. Come as you are — you belong here.
+            </p>
+            <div style="display:flex; gap: 16px; flex-wrap:wrap;">
+              <a href="about.html" class="btn btn--primary">Our Story</a>
+              <a href="plan-visit.html" class="btn btn--secondary">Visit This Sunday</a>
+            </div>
+          </div>
+
+          <div class="reveal" style="position: relative;">
+            <img src="assets/img/worship-1.jpg" alt="PICC congregation in worship"
+                 style="width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center 20%; border-radius:24px; box-shadow: 0 20px 60px rgba(92,28,68,0.18);" />
+            <div style="
+              position: absolute; bottom: -22px; left: -10px;
+              background: var(--color-accent);
+              border-radius: 20px;
+              padding: 22px 26px;
+              box-shadow: 0 12px 40px rgba(198,162,60,0.4);
+            ">
+              <div style="font-family:'Playfair Display',serif; font-size:38px; font-weight:700; color:white; line-height:1;">Est. 2013</div>
+              <div style="font-size:13px; color:rgba(255,255,255,0.9); margin-top:4px;">Raising Prevailers<br>in Lagos &amp; beyond</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FIND HELP teaser -->
+    <section class="section" style="background: linear-gradient(160deg, #3A0F2B 0%, #8B2E68 100%); padding: 80px 0;">
+      <div class="container">
+        <div style="text-align:center; max-width: 640px; margin: 0 auto 48px;">
+          <span class="section-header__label" style="color: var(--color-accent-light);">A Different Kind of Help</span>
+          <h2 style="color:white; margin-bottom:20px;">How Are You Feeling Today?</h2>
+          <p style="color:rgba(255,255,255,0.72); font-size:18px; line-height:1.7;">
+            You don't have to walk through it alone. Find a word, a prayer, and a person —
+            for exactly what you're facing right now.
+          </p>
+        </div>
+        <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:16px; margin-bottom:40px;" class="stack-mobile">
+          <a href="find-help.html#hurting" class="help-card" style="text-decoration:none;">
+            <div class="help-card__bg" style="background: linear-gradient(135deg, #5C1C44 0%, #8B2E68 100%);"></div>
+            <div class="help-card__overlay"></div>
+            <div class="help-card__content">
+              <span class="help-card__icon">💜</span>
+              <h3 class="help-card__title">When You're Hurting</h3>
+              <p class="help-card__sub">Find comfort for your pain</p>
+              <div class="help-card__arrow"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+            </div>
+          </a>
+          <a href="find-help.html#overwhelmed" class="help-card" style="text-decoration:none;">
+            <div class="help-card__bg" style="background: linear-gradient(135deg, #6E2255 0%, #A6478A 100%);"></div>
+            <div class="help-card__overlay"></div>
+            <div class="help-card__content">
+              <span class="help-card__icon">🌊</span>
+              <h3 class="help-card__title">When Your Mind Is Full</h3>
+              <p class="help-card__sub">Rest for an anxious heart</p>
+              <div class="help-card__arrow"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+            </div>
+          </a>
+          <a href="find-help.html#lost" class="help-card" style="text-decoration:none;">
+            <div class="help-card__bg" style="background: linear-gradient(135deg, #7A2A4A 0%, #C6A23C 120%);"></div>
+            <div class="help-card__overlay"></div>
+            <div class="help-card__content">
+              <span class="help-card__icon">🌅</span>
+              <h3 class="help-card__title">When You Feel Lost</h3>
+              <p class="help-card__sub">Direction for the wandering soul</p>
+              <div class="help-card__arrow"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+            </div>
+          </a>
+        </div>
+        <div style="text-align:center;"><a href="find-help.html" class="btn btn--white btn--lg">See All Categories</a></div>
+      </div>
+    </section>
+
+    <!-- MEET THE PASTOR -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="stack-mobile" style="display:grid; grid-template-columns: 0.9fr 1.1fr; gap:64px; align-items:center;">
+          <div class="reveal">
+            <img src="assets/img/pastor-1.jpg" alt="Pastor Elisha Esho preaching at PICC" class="pastor-feature__photo" />
+          </div>
+          <div class="reveal">
+            <span class="section-header__label">Meet Our Lead Pastor</span>
+            <h2 style="margin-bottom:20px;">Pastor Elisha Esho</h2>
+            <p class="text-lead" style="margin-bottom:20px;">
+              "My passion is to see souls saved and men and women come into the knowledge of the
+              glory of God."
+            </p>
+            <p style="margin-bottom:28px;">
+              Pastor Elisha Esho is the visioner and lead pastor of The Prevailers International
+              Christian Chapel, which he leads alongside his wife, Pastor Joyce Damilola-Dada.
+              Together they shepherd a vibrant, Spirit-filled congregation devoted to revival,
+              the undiluted Word of God, and raising kingdom prevailers for every sphere of life.
+            </p>
+            <a href="about.html" class="btn btn--primary">More About PICC</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LATEST SERMON -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">From the Pulpit</span>
+          <h2 class="section-header__title">Sound Teaching.<br>Real Transformation.</h2>
+          <p class="section-header__desc">Couldn't make it on Sunday? Catch the Word and let it minister to you anytime.</p>
+        </div>
+        <div class="reveal" style="max-width:900px; margin:0 auto;">
+          <div class="video-embed" style="margin-bottom:24px;">
+            <video controls playsinline poster="assets/img/pastor-3.jpg" style="width:100%;height:100%;object-fit:cover;">
+              <source src="assets/video/teaching.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div style="text-align:center;">
+            <div class="sermon-card__series" style="margin-bottom:8px;">Series · El-Rahum: The Father of Mercy</div>
+            <h3 style="margin-bottom:8px;">The Word, Timely and Life-Changing</h3>
+            <p style="margin-bottom:24px;">Sound teaching, deep truth, real transformation — preached at PICC, Bariga.</p>
+            <a href="sermons.html" class="btn btn--secondary btn--lg">View All Sermons</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY teaser -->
+    <section class="section section--warm">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">Life at PICC</span>
+          <h2 class="section-header__title">Moments of Worship &amp; Joy</h2>
+          <p class="section-header__desc">Every service is a celebration of God's goodness. Here's a glimpse.</p>
+        </div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-item"><img src="assets/img/praise-1.jpg" alt="Praise and dancing at PICC" /><div class="gallery-item__overlay"><span class="gallery-item__caption">Show me your dancing steps 💃</span></div></div>
+          <div class="gallery-item"><img src="assets/img/worship-2.jpg" alt="Heartfelt worship at PICC" /><div class="gallery-item__overlay"><span class="gallery-item__caption">Receive our worship, O Lord 🙌</span></div></div>
+          <div class="gallery-item"><img src="assets/img/praise-2.jpg" alt="Joyful celebration at PICC" /><div class="gallery-item__overlay"><span class="gallery-item__caption">We came to celebrate His goodness 🔥</span></div></div>
+        </div>
+        <div style="text-align:center; margin-top:36px;" class="reveal">
+          <a href="gallery.html" class="btn btn--primary btn--lg">Open the Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section" style="background: var(--color-primary); padding: 64px 0;">
+      <div class="container">
+        <div class="grid grid-4">
+          <div class="stat-card reveal"><div class="stat-card__number" data-count="2" data-suffix="">2</div><div class="stat-card__label" style="color:rgba(255,255,255,0.7);">Sunday Services</div></div>
+          <div class="stat-card reveal"><div class="stat-card__number" data-count="12" data-suffix="+">12+</div><div class="stat-card__label" style="color:rgba(255,255,255,0.7);">Years of Ministry</div></div>
+          <div class="stat-card reveal"><div class="stat-card__number" data-count="8" data-suffix="+">8+</div><div class="stat-card__label" style="color:rgba(255,255,255,0.7);">Active Ministries</div></div>
+          <div class="stat-card reveal"><div class="stat-card__number" data-count="1" data-suffix="">1</div><div class="stat-card__label" style="color:rgba(255,255,255,0.7);">Family in Christ</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">Real Stories</span>
+          <h2 class="section-header__title">Testimonies of Grace</h2>
+        </div>
+        <div class="grid grid-3 reveal">
+          <div class="testimonial">
+            <p class="testimonial__text">"I came into PICC carrying so much weight. The Word that Sunday felt written just for me. Today my faith is alive and I have a family in Christ."</p>
+            <div class="testimonial__author"><div class="testimonial__avatar-placeholder">👤</div><div><div class="testimonial__name">Tolu A.</div><div class="testimonial__role">Member</div></div></div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text">"The presence of God in worship here is real. I have grown, healed, and found purpose. PICC is truly home."</p>
+            <div class="testimonial__author"><div class="testimonial__avatar-placeholder">👤</div><div><div class="testimonial__name">Grace O.</div><div class="testimonial__role">Member</div></div></div>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text">"From the first visit we felt welcomed. The teaching is sound and practical. My whole family looks forward to Sunday."</p>
+            <div class="testimonial__author"><div class="testimonial__avatar-placeholder">👤</div><div><div class="testimonial__name">The Adewale Family</div><div class="testimonial__role">Members</div></div></div>
+          </div>
+        </div>
+        <div style="text-align:center; margin-top:36px;" class="reveal">
+          <a href="gallery.html#testimonies" class="btn btn--secondary">See More Testimonies</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCRIPTURE BANNER -->
+    <div class="scripture-banner">
+      <p class="scripture-banner__text">"Now thanks be unto God, which always causeth us to triumph in Christ."</p>
+      <p class="scripture-banner__ref">2 Corinthians 2:14</p>
+    </div>
+
+    <!-- GIVE -->
+    <section class="section" style="background: var(--color-primary-dark); padding: 80px 0; text-align:center;">
+      <div class="container">
+        <div class="reveal" style="max-width:560px; margin:0 auto;">
+          <span class="section-header__label" style="color:var(--color-accent-light);">Generosity</span>
+          <h2 style="color:white; margin-bottom:20px;">Partner With the Vision</h2>
+          <p style="color:rgba(255,255,255,0.72); font-size:18px; line-height:1.7; margin-bottom:36px;">
+            Every seed sown helps build a community where lives are transformed, families restored,
+            and the gospel of the kingdom advances across Lagos and the nations.
+          </p>
+          <a href="give.html" class="btn btn--white btn--lg">Give Online</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="assets/img/logo.jpg" alt="PICC logo" class="footer__logo-img" />
+            <span class="footer__logo-name">PICC</span>
+          </a>
+          <p class="footer__tagline">The Prevailers International Christian Chapel — a Spirit-filled family raising prevailers for every sphere of life. Come as you are; you belong here.</p>
+          <div class="footer__service-times">
+            <div class="footer__service-time"><span>Sunday Worship</span><span>8:00am &amp; 10:00am</span></div>
+            <div class="footer__service-time"><span>Wednesday Word &amp; Prayer</span><span>6:00pm</span></div>
+          </div>
+          <div class="footer__socials mt-6">
+            <a href="https://www.instagram.com/explore/locations/101768171449928/" target="_blank" rel="noopener" class="footer__social" aria-label="Instagram">ig</a>
+            <a href="https://www.facebook.com/groups/1836412196507492/" target="_blank" rel="noopener" class="footer__social" aria-label="Facebook">f</a>
+            <a href="#" class="footer__social" aria-label="YouTube">yt</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Explore</h4>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="beliefs.html" class="footer__link">Our Beliefs</a></li>
+            <li><a href="ministries.html" class="footer__link">Ministries</a></li>
+            <li><a href="sermons.html" class="footer__link">Sermons</a></li>
+            <li><a href="gallery.html" class="footer__link">Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Connect</h4>
+          <ul class="footer__links">
+            <li><a href="plan-visit.html" class="footer__link">Plan a Visit</a></li>
+            <li><a href="give.html" class="footer__link">Give Online</a></li>
+            <li><a href="find-help.html" class="footer__link">Find Help</a></li>
+            <li><a href="contact.html" class="footer__link">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Find Us</h4>
+          <ul class="footer__links">
+            <li><span class="footer__link" style="cursor:default;color:rgba(255,255,255,0.6);">Ilaje Road, Bariga<br>Lagos, Nigeria</span></li>
+            <li style="margin-top:8px;"><a href="tel:+2348000000000" class="footer__link">+234 800 000 0000</a></li>
+            <li><a href="mailto:hello@piccglobal.org" class="footer__link">hello@piccglobal.org</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 The Prevailers International Christian Chapel. All rights reserved.</p>
+        <div style="display:flex;gap:16px;"><span class="footer__link" style="font-size:13px;">#mypiccglobal · #prevailers</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2348000000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
